@@ -1,0 +1,209 @@
+.translationHedaerLeft {
+    position: relative;
+    padding: 9px 15px 9px 25px;
+    border-right: 1px solid #ebeff4;
+    box-shadow: 3px 0px 16px -5px rgba(179, 179, 179, 0.5);
+}
+
+.translationHedaerLeft:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 20px solid rgba(230, 230, 230, 0.6);
+    position: absolute;
+    top: 88px;
+    clear: both;
+    left: 19px;
+}
+
+.translationHedaerLeft:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    position: absolute;
+    top: 88px;
+    z-index: 118;
+}
+
+.dictionaryDiv:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #44bdf3;
+    position: absolute;
+    top: 88px;
+    z-index: 118;
+    left: 45px;
+}
+
+.paragraphUl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translationHeaderRight {
+    position: relative;
+    padding: 25px 15px 15px 15px;
+    box-shadow: 0 3px 14px rgba(179, 179, 179, 0.5);
+}
+
+.translationHeader.childSection1 {
+    min-height: 88px;
+    padding: 0;
+    box-shadow: 0px 3px 13px rgba(179, 179, 179, 0.5);
+}
+
+input.translationSearch.from-control {
+    width:  100%;
+    padding: 20px 10px 20px 0;
+    border:  none;
+    outline:  none;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: rgb(62,66,82);
+    font-family: "OxygenRegular";
+}
+
+input.translationSearch.from-control::placeholder {
+    color: #3e4252;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: rgb(62,66,82);
+    font-family: "OxygenRegular";
+}
+
+button.translationPaste.btn {
+    background-color: #03316b;
+    color:  #fff;
+    font-size:  20px;
+    border-radius: 5px !important;
+    padding: 8px 25px;
+}
+
+.translationHedaerRight ul {
+    text-align: center;
+    transform: translatey(10%);
+    position:  unset;
+    padding: 0;
+}
+.translationWrapper {
+    overflow:  hidden;
+}
+
+.translationWrapperLeft{
+    border-right: 1.5px solid #ebeff4;
+}
+.translationHedaerRight{
+    position: relative;
+    padding: 25px 15px 15px 15px;
+    box-shadow: 0 3px 14px rgba(179, 179, 179, 0.5);
+}
+
+.translationEdit {
+    outline:  none;
+    padding: 20px 25px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    color: rgb(106,108,118);
+    font-family: "OxygenRegular";
+    font-weight: 700;
+    min-height:  200px;
+}
+.translationWrapperButton {
+    box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.5);
+}
+
+.translationButtonLeft {
+    border-right: 1px solid #ebeff4;
+    box-shadow: 3px 0px 16px -5px rgba(179, 179, 179, 0.5);
+    padding:  20px 15px;
+}
+
+.translationButtonRight {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    box-shadow: 0 0 5px rgba(179, 179, 179, 0.5);
+}
+
+.btn-clean {
+    border-radius: 5px;
+    background-color: #f9111f;
+    margin-right:  10px;
+}
+
+.translationBtn {
+    color:  white;
+    font-size: 17px;
+    font-family:  "OxygenRegular";
+    padding:  10px 25px;
+    border-radius: 5px;
+}
+
+.btn-paste {
+    background-color: #03316b;
+}
+
+.btn-save {
+    margin-right:  10px;
+    background-color: #3faf6c;
+}
+
+.btn-cancel {
+    background-color: #03316b;
+}
+
+.translation {
+    padding: 20px 25px;
+}
+
+.dictionary {
+    width:  100%;
+    padding: 20px 0 10px 0;
+    border: 0;
+    outline:  0;
+    border-bottom: 3px solid #00b9ed;
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    color: rgb(0,185,238);
+    font-family: "OxygenRegular";
+}
+.dictionary::placeholder {
+    color:  #00b9ed;
+}
+
+.translation:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 70%;
+    right: 1px;
+    top: 50%;
+    background: #dfdfdf;
+    transform: translateY(-50%);
+}
+.translation:last-child:after{
+    display: none;
+}
+.translationData {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    color: rgb(3,50,108);
+    font-family: "OxygenLight";
+    font-weight: 700;
+    padding: 45px 0;
+}

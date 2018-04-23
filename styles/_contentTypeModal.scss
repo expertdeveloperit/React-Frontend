@@ -1,0 +1,53 @@
+.contentTypeModal button.close {
+    float: right;
+    background: #42b9ee;
+    border-radius: 50%;
+    margin-top: -69px;
+    margin-right: -27px;
+    opacity: 1;
+}
+
+.contentTypeModal .modal-header {
+    padding: 48px 15px 13px;
+    border-bottom: 0;
+}
+
+.contentTypeModal {
+    color:  white;
+}
+
+.contentTypeModal .modal-body {
+    position: relative;
+    padding: 30px;
+}
+
+.contentTypeModal .content-type-list li {
+    display: inline-block;
+    color: blue;
+    padding: 0;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.contentTypeModal .content-type-list li:after{
+    content: "";
+    display: block;
+    background: #b5b5b5;
+    height: 102px;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.30;
+}
+
+.contentTypeModal .close:hover, .sidebar3 .close:focus {
+    outline: 0;
+}
+
+.contentTypeModal .content-type-list li:last-child:after {
+    display: none;
+} 

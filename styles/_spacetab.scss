@@ -1,0 +1,239 @@
+/*Spacetab Style*/
+.sidebar3 {
+    position: fixed;
+    bottom: 10px;
+    width: 273px;
+    background-color: #33b9ee;
+    color: white;
+    z-index: 999;
+    border-radius: 5px;
+    padding: 15px 13px 15px 13px;
+}
+.space_tabs{
+    text-align: center;
+    padding: 0;
+}
+.space_messages, .space_log {
+    padding-top: 9px;
+}
+.space_pic {
+    margin-top: 1px;
+}
+.space_edit {
+    padding-top: 5px;
+}
+.space_tabs:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    opacity: 0.1;
+}
+.space_tabs img {
+    cursor: pointer;
+    height: 100%;
+}
+.space_tabs a {
+    cursor: pointer;
+    height: 100%;
+}
+.space_log.space_tabs:after, .space_pic .space_tabs:after {
+    display: none;
+}
+.space_tabs {
+    position: relative;
+}
+.space_pic .space_tabs {
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*modal*/
+.main_parent{
+   width: 1170px;
+   margin: 0 auto;
+}
+.main_parent .modal-dialog{
+   float: right;
+   width: 81%;
+}
+.content-type-list{
+    padding: 0 !important;
+}
+.content-type-list li{
+    display: inline-block;
+    color: blue;
+    padding:5px;
+}
+.content-title-top .content-title{
+    color: #f8d600;
+    font-size: 33.1px;
+    font-weight: 400;
+}
+
+.sidebar3 .modal-header {
+    padding: 48px 15px 13px;
+    border-bottom: 0;
+}
+.sidebar3 .main-modal-card .modal-header {
+    padding: 28px 15px 0;
+    border-bottom: 0;
+}
+.sidebar3 .modal-body {
+    position: relative;
+    padding: 30px;
+}
+.main_parent {
+    width: 1182px;
+    margin: 0 auto;
+}
+.main_parent .modal-dialog {
+    float: right;
+    width: 80%;
+}
+
+.sidebar3 .close {
+    float: right;
+    background: #42b9ee;
+    border-radius: 50%;
+    margin-top: -69px;
+    margin-right: -27px;
+    opacity: 1;
+}
+.sidebar3 .main-modal-card .close {
+    margin-top: -50px;
+    margin-right: -27px;
+}
+.sidebar3 .content-type-list li {
+    display: inline-block;
+    color: blue;
+    padding: 0;
+    width: 25%;
+    text-align: center;
+    position: relative;
+} 
+.sidebar3 .content-type-list li:after {
+    content: "";
+    display: block;
+    background: #b5b5b5;
+    height: 102px;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.30;
+}
+.sidebar3 .close:hover, .sidebar3 .close:focus {
+    outline: 0;
+}
+
+.sidebar3 .content-type-list li:last-child:after {
+    display: none;
+} 
+.sidebar3 .content-type-list li a:hover, .sidebar3 .content-type-list li a:focus {
+    text-decoration: none;
+}
+.content-type-list li span {
+    display: block;
+    color: #03326c;
+    font-size: 33.1px;
+    font-weight: 400;
+    margin-top: 22px;
+    letter-spacing: -1.11px;
+}
+.create-btn {
+    font-size: 1.4em;
+    padding: 14px 12px;
+    border: 0;
+    background: #3faf6c;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-top: 27px;
+}
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.modalChild{
+    width:100% !important;
+}
+/*modal ends*/
+
+/*draft*/
+.mydraft_list{
+    color:black;
+}
+.modal-body {
+    overflow: hidden;
+}
+.mydraft_wrapper .featuringImage {
+    height: 150px;
+}
+
+.drafts-content-card .featuringImage, .drafts-content-card .dummy_featuringImage  {
+    height: 251px;
+}
+
+.mydraft_wrapper .content-card-info {
+    min-height: auto;
+} 
+.mydraft_wrapper .content-card-title {
+    font-size: 12px;
+    margin: 17px 15px 0 15px;
+}
+.mydraft_wrapper .panel-body {
+    position: relative;
+}
+.draft-edit {
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    top: 282px;
+    left: 46px;
+}
+
+.no-draft-exists{
+    color:#002d9d;
+    font-size: 18px;
+}
+.no-draft-exists span{
+    font-size: 12px;
+}
+
+.back-drafts-modal{
+    width:100%;
+    float: left;
+}
+.draftColored{
+    background: #b9b9b92b;
+}
+/*draft ends*/
+.modalChild .submit_button.append-margin.saveBtn.continueFrom {
+    width: auto;
+}
+
+.dummy_featuringImage {
+    height: 187px;
+    border-radius: 5px 5px 0 0;
+    background: #b6b6b6d9;
+}
+
+.dummy_featuringImage img{
+    top: 35%;
+    margin: 0 auto;
+    position: relative;
+}
+
